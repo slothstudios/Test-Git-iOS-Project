@@ -21,6 +21,7 @@
 		65A9DC2B199D702200A3D9F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A9DC0D199D702200A3D9F4 /* UIKit.framework */; };
 		65A9DC33199D702200A3D9F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65A9DC31199D702200A3D9F4 /* InfoPlist.strings */; };
 		65A9DC35199D702200A3D9F4 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A9DC34199D702200A3D9F4 /* Git_TestTests.m */; };
+		65A9DC40199D735700A3D9F4 /* DRETestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A9DC3F199D735700A3D9F4 /* DRETestObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		65A9DC30199D702200A3D9F4 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		65A9DC32199D702200A3D9F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65A9DC34199D702200A3D9F4 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		65A9DC3E199D735700A3D9F4 /* DRETestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRETestObject.h; sourceTree = "<group>"; };
+		65A9DC3F199D735700A3D9F4 /* DRETestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRETestObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		65A9DBFD199D702100A3D9F4 = {
 			isa = PBXGroup;
 			children = (
+				65A9DC3E199D735700A3D9F4 /* DRETestObject.h */,
+				65A9DC3F199D735700A3D9F4 /* DRETestObject.m */,
 				65A9DC0F199D702200A3D9F4 /* Git Test */,
 				65A9DC2E199D702200A3D9F4 /* Git TestTests */,
 				65A9DC08199D702200A3D9F4 /* Frameworks */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65A9DC40199D735700A3D9F4 /* DRETestObject.m in Sources */,
 				65A9DC1A199D702200A3D9F4 /* DREAppDelegate.m in Sources */,
 				65A9DC16199D702200A3D9F4 /* main.m in Sources */,
 				65A9DC20199D702200A3D9F4 /* DREViewController.m in Sources */,
